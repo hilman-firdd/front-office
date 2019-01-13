@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.porter_info {
+    position: relative;
+}
+
+.porter_info .title {
+    background: linear-gradient(to bottom right, rgb(182, 175, 175), rgb(64, 163, 209), rgb(120, 211, 125));
+    padding: 15px;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    color: #eee;
+}
+
+.porter_info .daftar {
+    margin-left: 50px;
+}
+
+.porter_info .booking {
+    margin-top: 20px;
+}
+
+.porter_info span {
+    background-color: rgba(236, 62, 62, 0.74);
+    padding: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.porter_info .catat {
+    margin-left: 50px;
+}
+
+.porter_info .catat td input {
+    margin: 20px;
+}
+
+.porter_info .aksi {
+    list-style-type: none;
+    display: flex;
+}
+
+.porter_info li {
+    margin-left: 12px;
+    margin-right: 100%;
+}
+
+.porter_info button {
+    width: 100px;
+}
+
+@media (max-width:800px) {
+    .porter_info li {
+        margin-left: 12px;
+        margin-right: 70%;
+    }
+
+}
