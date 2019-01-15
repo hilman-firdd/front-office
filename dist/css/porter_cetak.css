@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    overflow-x: hidden;
+}
+
+.porter_cetak {
+    position: relative;
+}
+
+.porter_cetak .title {
+    background: linear-gradient(to bottom right, rgb(182, 175, 175), rgb(64, 163, 209), rgb(120, 211, 125));
+    padding: 15px;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    color: #eee;
+}
+
+.porter_cetak .daftar {
+    margin-left: 50px;
+}
+
+.porter_cetak .booking {
+    margin-top: 20px;
+}
+
+.porter_cetak span {
+    background-color: rgba(236, 62, 62, 0.74);
+    padding: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.data {
+    margin-left: 1%;
+    text-align: center;
+}
+
+.content .text {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.data button {
+    width: 150px;
+    margin-right: 50%;
+}
+
+.data .garis {
+    border: 1px solid #999;
+}
+
+.data span {
+    background-color: rgba(236, 62, 62, 0.74);
+    padding: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+
+@media (max-width:768px) {
+    .data img {
+        margin-right: 10px;
+    }
+
+    .data .text {
+        margin-right: 5rem;
+    }
+
+    .data button {
+        margin-left: 24%;
+        width: 50%;
+    }
+
+    .data hr {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
