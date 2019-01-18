@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.frontdesk {
+    position: relative;
+}
+
+.frontdesk .title {
+    background: linear-gradient(to bottom right, rgb(182, 175, 175), rgb(64, 163, 209), rgb(120, 211, 125));
+    padding: 15px;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    color: #eee;
+}
+
+
+.frontdesk span {
+    background-color: rgba(236, 62, 62, 0.74);
+    padding: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.frontdesk i {
+    border: none;
+    border-top-right-radius: 50px;
+}
+
+
+.frontdesk .input-group-append {
+    background-color: rgba(80, 180, 142, 0.925);
+    border: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-top-right-radius: 20px;
+}
+
+.form-control:focus {
+    color: #495057 !important;
+    background-color: #fff;
+    box-shadow: none !important;
+}
+
+
+.frontdesk .lanjut {
+    right: 5rem;
+    width: 10rem;
+    top: 30rem;
+    position: absolute;
+}

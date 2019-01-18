@@ -7,11 +7,11 @@ body {
     background-color: #eee;
 }
 
-.porter_info {
+.porter_data {
     position: relative;
 }
 
-.porter_info .title {
+.porter_data .title {
     background: linear-gradient(to bottom right, rgb(182, 175, 175), rgb(64, 163, 209), rgb(120, 211, 125));
     padding: 15px;
     height: 4rem;
@@ -23,43 +23,52 @@ body {
     color: #eee;
 }
 
-.porter_info .title-data {
+.porter_data .title-data {
     width: 80%;
     margin: 30px auto;
     position: relative;
 }
 
-.porter_info .input-group-append {
+
+.porter_data .input-group-append {
     background-color: rgba(80, 180, 142, 0.925);
     border: none;
     top: 0;
     right: 0;
     position: absolute;
+    border-top-right-radius: 20px;
 }
 
-.porter_info i {
+.form-control:focus {
+    color: #495057 !important;
+    background-color: #fff;
+    box-shadow: none !important;
+}
+
+
+.porter_data i {
     color: #eee;
 }
 
-.porter_info img {
+.porter_data img {
     width: 250px;
     height: 250px;
     border-top: 3px solid rgba(80, 180, 142, 0.925);
     border-bottom: 3px solid rgb(64, 163, 209);
 }
 
-.porter_info .float-right {
+.porter_data .float-right {
     right: 6rem !important;
     position: relative;
     z-index: 9999;
     width: 9rem;
 }
 
-.porter_info .data {
+.porter_data .data {
     margin: 30px;
 }
 
-.porter_info .member {
+.porter_data .member {
     background-color: rgba(187, 63, 63, 0.815);
     padding: 5px;
     padding-right: 9px;
@@ -92,7 +101,7 @@ body {
 }
 
 @media (max-width:600px) {
-    .porter_info img {
+    .porter_data img {
         width: 300px;
         height: 300px;
         border-top: 3px solid rgba(80, 180, 142, 0.925);
@@ -105,7 +114,7 @@ body {
         width: 9rem;
     }
 
-    .porter_info .float-right {
+    .porter_data .float-right {
         right: 6.5rem !important;
         position: relative;
         width: 9rem;
